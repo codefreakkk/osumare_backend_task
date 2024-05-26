@@ -40,9 +40,10 @@ export class TodosController {
 
     static async createTodo(req: Request, res: Response): Promise<void> {
         try {
-            const {userId, title, description} = req.body;
+            const {title, description} = req.body;
+            const userId = req.user?._id as string;
             const todo: ITodos = {
-                userId, 
+                userId,
                 title, 
                 description
             };

@@ -1,3 +1,8 @@
+This project is developed using express and typescript
+Features:-  1) User creation
+            2) Create, delete, update the todos
+
+
 To setup the project, Firstly clone the project
 ```shell
 git clone https://github.com/codefreakkk/osumare_backend_task

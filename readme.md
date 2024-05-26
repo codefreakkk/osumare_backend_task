@@ -1,4 +1,6 @@
-This project is developed using express and typescript
+This project is developed using express and typescript and MongoDB as a Database
+
+
 Features:-  1) User creation
             2) Create, delete, update the todos
 
